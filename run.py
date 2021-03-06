@@ -54,7 +54,7 @@ def p_main(user,pass1,invitecode):
             #print('验证码图片已保存！')
             im = './captcha.gif'
             s = lianzhong_api.main(user, pass1, im, 'http://v1-http-api.jsdama.com/api.php?mod=php&act=upload', '', '',
-                                   '1008', '8dc962b56f1968a844450834ef91bfd0')
+                                   '1008', 'd425c5c6135b7542c994bde770dfd340')
             #print(s.json())
             code = s.json()['data']['val']
             yzm_id=s.json()['data']['id']
