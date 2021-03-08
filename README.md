@@ -37,7 +37,9 @@ http://location:5000/invite_log    (完成情况）
 http://location:5000/log1          (运行情况）
 
 
-
+INVITECODE
+USER
+PASSWORD
 
 
 
